@@ -14,8 +14,8 @@ const links = [
     label: "tasks",
   },
   {
-    href: "/query",
-    label: "query",
+    href: "/prisma-example",
+    label: "prisma",
   },
 ];
 
