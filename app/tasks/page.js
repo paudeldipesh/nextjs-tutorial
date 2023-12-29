@@ -1,9 +1,9 @@
-import { TaskForm, TaskList } from "@/components";
+import { TaskFormCustom, TaskList } from "@/components";
 
 export default function TasksPage() {
   return (
     <div className="max-w-lg">
-      <TaskForm />
+      <TaskFormCustom />
       <TaskList />
     </div>
   );

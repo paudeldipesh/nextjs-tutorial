@@ -4,3 +4,4 @@ export { default as TaskForm } from "./TaskForm";
 export { default as TaskList } from "./TaskList";
 export { default as DeleteForm } from "./DeleteForm";
 export { default as EditForm } from "./EditForm";
+export { default as TaskFormCustom } from "./TaskFormCustom";

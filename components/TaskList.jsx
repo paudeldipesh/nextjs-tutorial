@@ -25,7 +25,10 @@ export default async function TaskList() {
           </h2>
 
           <div className="flex gap-6 items-center">
-            <Link href={`/tasks/${id}`} className="btn btn-accent btn-xs">
+            <Link
+              href={`/tasks/${id}`}
+              className="btn btn-accent btn-xs capitalize"
+            >
               edit
             </Link>
             <DeleteForm id={id} />
